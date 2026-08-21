@@ -1,4 +1,4 @@
-#  London Metropolis: A Dynamic 2D Cityscape Simulation
+# London Metropolis: A Dynamic 2D Cityscape Simulation
 
 > **An interactive 2D London cityscape simulation built using C++ and OpenGL/FreeGLUT that demonstrates fundamental computer graphics algorithms, 2D transformations, real-time animation, and dynamic environmental effects.**
 
@@ -6,9 +6,7 @@
 
 ## About
 
-**London Metropolis: A Dynamic 2D Cityscape Simulation** is an interactive computer graphics project that recreates a simplified London urban environment using fundamental 2D graphics concepts. The scene combines buildings, roads, bridges, the River Thames, Big Ben, the London Eye, vehicles, boats, trees, clouds, and other city elements into a dynamic environment. 
-
-The project demonstrates how fundamental graphics algorithms and transformations can be combined with animation and user interaction to create a visually engaging real-time city simulation.
+**London Metropolis: A Dynamic 2D Cityscape Simulation** is an interactive computer graphics project that recreates a simplified London urban environment using fundamental 2D graphics concepts. The scene combines buildings, roads, bridges, the River Thames, Big Ben, the London Eye, vehicles, boats, trees, clouds, and other city elements into a dynamic environment. The project demonstrates how fundamental graphics algorithms and transformations can be combined with animation and user interaction to create a visually engaging real-time city simulation.
 
 ### Key Highlights
 
@@ -21,30 +19,21 @@ The project demonstrates how fundamental graphics algorithms and transformations
 * **Weather Effects** – Includes interactive rain, snow, and fog modes.
 * **Moving Clouds** – Clouds drift across the sky with continuous animation.
 * **Interactive Camera Movement** – Users can move horizontally across the scene using keyboard controls.
-* **Real-Time Animation** – Timer-based updates provide continuous scene rendering and movement. 
+* **Real-Time Animation** – Timer-based updates provide continuous scene rendering and movement.
 
 ---
 
-## Features
+##  Features
 
-### 2D Scene Construction
+### 1. 2D Scene Construction
 
-The cityscape is constructed using fundamental graphical primitives such as:
+The cityscape is constructed using fundamental graphical primitives such as lines, circles, rectangles, polygons. These primitives are combined to create complex objects including buildings, bridges, vehicles, trees, Big Ben, and the London Eye.
 
-* Lines
-* Circles
-* Rectangles
-* Polygons
-
-These primitives are combined to create complex objects including buildings, bridges, vehicles, trees, Big Ben, and the London Eye. 
-
-###  Graphics Algorithms
+### 2. Graphics Algorithms
 
 The project implements fundamental computer graphics algorithms:
 
-**Bresenham Line Drawing Algorithm**
-
-Used for structural and linear elements such as:
+**Bresenham Line Drawing Algorithm** : Used for structural and linear elements such as:
 
 * Bridge cables
 * Support bars
@@ -52,19 +41,17 @@ Used for structural and linear elements such as:
 * Road elements
 * Big Ben clock hands
 
-**Midpoint Circle Drawing Algorithm**
-
-Used for circular outlines such as:
+**Midpoint Circle Drawing Algorithm** : Used for circular outlines such as:
 
 * Big Ben clock
 * Clock center
 * London Eye circular details
 
-A smooth polygon-based circle technique is also used for larger filled objects such as the sun, moon, clouds, tree leaves, vehicle wheels, and lights. 
+A smooth polygon-based circle technique is also used for larger filled objects such as the sun, moon, clouds, tree leaves, vehicle wheels, and lights.
 
 ---
 
-### 2D Transformations
+### 3. 2D Transformations
 
 The simulation applies several transformation techniques:
 
@@ -72,32 +59,30 @@ The simulation applies several transformation techniques:
 * **Rotation** – Rotating the London Eye and Big Ben clock hands.
 * **Scaling** – Controlling the size and proportions of objects through parameters.
 
-Reflection and shear transformations were not used in the project. 
-
 ---
 
-###  Real-Time Animation
+### 4. Real-Time Animation
 
 The project uses a timer-based update system to continuously update object positions, rotations, and environmental states.
 
 Animated elements include:
 
-* Vehicles
-* Clouds
-* Boats
-* London Eye
-* Big Ben clock
-* Rain
-* Snow
-* Fog
-* Water waves
-* Day-night transition
+*  Vehicles
+*  Clouds
+*  Boats
+*  London Eye
+*  Big Ben clock
+*  Rain
+*  Snow
+*  Fog
+*  Water waves
+*  Day-night transition
 
-The scene is refreshed approximately every 16 milliseconds to maintain smooth real-time animation. 
+The scene is refreshed approximately every 16 milliseconds to maintain smooth real-time animation.
 
 ---
 
-### 🌦️ Environmental Effects
+### 5. Environmental Effects
 
 The project includes several dynamic environmental modes:
 
@@ -107,11 +92,11 @@ The project includes several dynamic environmental modes:
 * **Snow Mode**
 * **Fog Mode**
 
-The day-night system uses gradual blending rather than an instant change, while rain and snow are animated using time-dependent particle-like movement. 
+The day-night system uses gradual blending rather than an instant change, while rain and snow are animated using time-dependent particle-like movement.
 
 ---
 
-### User Interaction
+### 6. User Interaction
 
 Keyboard controls allow users to interact with the simulation and control different aspects of the environment, including:
 
@@ -121,13 +106,13 @@ Keyboard controls allow users to interact with the simulation and control differ
 * Lighting
 * Animation states
 
-This makes the project more than a static graphical scene and provides an interactive viewing experience. 
+This makes the project more than a static graphical scene and provides an interactive viewing experience.
 
 ---
 
 ##  Project Screenshots
 
-### Day Mode
+### ☀️ Day Mode
 
 The daytime scene presents the complete London cityscape with the river, bridge, buildings, Big Ben, London Eye, vehicles, boats, clouds, and other urban elements.
 
@@ -137,7 +122,7 @@ The daytime scene presents the complete London cityscape with the river, bridge,
 
 ---
 
-### Night Mode
+### 🌙 Night Mode
 
 The night mode changes the overall lighting and sky environment to create a nighttime London atmosphere.
 
@@ -147,7 +132,7 @@ The night mode changes the overall lighting and sky environment to create a nigh
 
 ---
 
-### Rain Mode
+### 🌧️ Rain Mode
 
 Rain mode introduces animated falling rain while maintaining the city environment and continuous object animations.
 
@@ -157,7 +142,7 @@ Rain mode introduces animated falling rain while maintaining the city environmen
 
 ---
 
-### Snow Mode
+### ❄️ Snow Mode
 
 Snow mode adds animated snowfall with slower falling movement and horizontal variation to create a natural snowfall effect.
 
@@ -167,7 +152,7 @@ Snow mode adds animated snowfall with slower falling movement and horizontal var
 
 ---
 
-### Fog Mode
+### 🌫️ Fog Mode
 
 Fog mode introduces moving transparent fog bands that create additional depth and atmospheric effects within the city scene.
 
@@ -177,15 +162,13 @@ Fog mode introduces moving transparent fog bands that create additional depth an
 
 ---
 
-## System Workflow
+##  System Workflow
 
 **Scene Initialization → Object Construction → Graphics Algorithms → Transformations → Animation Logic → Environmental Effects → User Interaction → Real-Time Rendering**
 
-The system follows a modular structure where individual graphical components are implemented separately and then integrated into the complete London metropolis scene. 
-
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 * **C++**
 * **OpenGL**
@@ -197,9 +180,4 @@ The system follows a modular structure where individual graphical components are
 * **Real-Time Animation**
 * **Keyboard Interaction**
 
-The project was developed using C++ with OpenGL/FreeGLUT for 2D rendering, transformations, window management, keyboard input, and animation timing. 
-
----
-
-
-
+The project was developed using C++ with OpenGL/FreeGLUT for 2D rendering, transformations, window management, keyboard input, and animation timing.

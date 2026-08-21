@@ -114,41 +114,29 @@ This makes the project more than a static graphical scene and provides an intera
 
 ### ☀️ Day Mode
 
-The daytime scene presents the complete London cityscape with the river, bridge, buildings, Big Ben, London Eye, vehicles, boats, clouds, and other urban elements.
+<img width="792" height="407" alt="image" src="https://github.com/user-attachments/assets/70dd0bf3-8cd9-4493-85f6-76a8ac31a108" />
 
-**Screenshot:**
-
-`Add your Day Mode screenshot here`
 
 ---
 
 ### 🌙 Night Mode
 
-The night mode changes the overall lighting and sky environment to create a nighttime London atmosphere.
+<img width="790" height="407" alt="image" src="https://github.com/user-attachments/assets/eca8e671-7799-45e5-9622-a297925ed123" />
 
-**Screenshot:**
-
-`Add your Night Mode screenshot here`
 
 ---
 
 ### 🌧️ Rain Mode
 
-Rain mode introduces animated falling rain while maintaining the city environment and continuous object animations.
+<img width="792" height="402" alt="image" src="https://github.com/user-attachments/assets/4d46809f-1830-482c-92d4-82df9a436d49" />
 
-**Screenshot:**
-
-`Add your Rain Mode screenshot here`
 
 ---
 
 ### ❄️ Snow Mode
 
-Snow mode adds animated snowfall with slower falling movement and horizontal variation to create a natural snowfall effect.
+<img width="790" height="402" alt="image" src="https://github.com/user-attachments/assets/c847133f-c7bc-4c4e-a271-e76777b320ac" />
 
-**Screenshot:**
-
-`Add your Snow Mode screenshot here`
 
 ---
 

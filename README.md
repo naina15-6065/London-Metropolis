@@ -142,11 +142,8 @@ This makes the project more than a static graphical scene and provides an intera
 
 ### 🌫️ Fog Mode
 
-Fog mode introduces moving transparent fog bands that create additional depth and atmospheric effects within the city scene.
+<img width="792" height="406" alt="image" src="https://github.com/user-attachments/assets/a5aef9a3-4063-4118-894e-6a9904fad7de" />
 
-**Screenshot:**
-
-`Add your Fog Mode screenshot here`
 
 ---
 
